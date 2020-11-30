@@ -7,12 +7,12 @@ const value = document.querySelector('#value');
 
 const increment = () => {
     counterValue -= 1;
-    return value.textContent = counterValue;
+    value.textContent = counterValue;
 }
 
 const decrement = () => {
     counterValue += 1;
-    return value.textContent = counterValue;
+    value.textContent = counterValue;
 }
 
 btnDecrease.addEventListener('click', increment);
